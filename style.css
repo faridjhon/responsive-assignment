@@ -6,3 +6,34 @@
     width: 325px;
     height: 50px;
 }
+.button-color{
+    background:#9FB73E;
+    border-radius: 5px;
+    padding: 5px 20px;
+    color: white;
+    
+    
+}
+.price{
+   color:#FABE4C;
+   font-size: 30px;
+   font-weight: bold;
+}
+.card{
+    border: none;
+    border-radius: 15px;
+    
+    box-shadow: 1px 1px 1px 1px #888888;
+}
+.footer-border{
+    border:none;
+    background-color: white;
+}
+.card-img-bg {
+    background-color: #F0F0F0;
+    border-radius: 20px;
+    width: 90%;
+    height: 400px;
+    margin-left: 5%;
+    
+}
