@@ -1,14 +1,33 @@
+/*global CSS*/
 body{
     font-family: 'Montserrat', sans-serif;
 }
-.main-img img{
-    width: 100%;
-    height: 550px;
-}
+/*header logo CSS*/
 .logo-img{
-    width: 325px;
+    width: 200px;
     height: 50px;
 }
+/*Main section CSS*/
+.main-img img{
+    width: 100%;
+    height: 500px;
+}
+                 
+.main-title-1{
+    color:#FABE4C;
+    font-weight: 700;
+    font-size: 35px;
+}
+.main-title-2{
+    color:#363958;
+    font-weight: bolder;
+}
+/*Category section CSS*/
+.cat-title{
+    color:#363958;
+    font-weight: bolder;
+}
+
 .button-color{
     background:#9FB73E;
     border-radius: 5px;
@@ -26,7 +45,7 @@ body{
     border: none;
     border-radius: 15px;
     
-    box-shadow: 1px 1px 1px 1px #888888;
+    box-shadow: 1px 1px 1px 1px rgb(219, 216, 216);
 }
 .footer-border{
     border:none;
@@ -40,8 +59,21 @@ body{
     margin-left: 5%;
     
 }
+/*Information section CSS*/
 .icon img{
-   width: 150px;
-   height: 100px;
+   width: 80px;
+   height: 80px;
     
+}
+
+.information-padding{
+    padding-left: 20px;
+}
+.information-shadow{
+    border-radius: 13px;
+    
+    box-shadow: 1px 1px 1px 1px #e7e2e2;
+}
+.background-color{
+    background-color: #FFFBF0;
 }
